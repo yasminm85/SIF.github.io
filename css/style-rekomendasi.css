@@ -1,0 +1,36 @@
+.rekomendasi-container{
+    width: 300px;
+    height: 800px;
+    background-color: antiquewhite;
+    display: contents;
+}
+.img-rekomendasi{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+}
+.tulisan{
+    width: 300px;
+    height: 100px;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.plang-rekomendasi{
+    width: 100px;
+    height: 17px;
+    background-color: thistle;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 30px lightgray;
+    border-radius: 5px;
+}
+.tulisan-plang{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}

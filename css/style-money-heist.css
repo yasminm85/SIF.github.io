@@ -1,0 +1,311 @@
+body{
+    background-color: #151515;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+#header{
+    width: 100%;
+    height: 20%;
+}
+#bawah-dikit-kiri{
+    width: 50%;
+    height: 55%;
+    float: left;
+    line-height: 10px;
+}
+#bawah-dikit-kanan{
+    width: 50%;
+    height: 55%;
+    float: left;
+}
+#tengah{
+    width: 100%;
+    height: 70%;
+    
+}
+#footer{
+    width: 100%;
+    height: 10%;
+    
+}
+#judul{
+    text-align: center;
+}
+#kiri{
+    width: 20%;
+    height: 100%;
+    
+    float: left;
+}
+#tengah1{
+    width: 60%;
+    height: 100%;
+    font-family: 'Andada Pro', serif;
+    float: left;
+}
+#kanan{
+    width: 20%;
+    height: 100%;
+    
+    float: left;
+}
+#cursed-img{
+    width: 100%;
+    height: 100%;
+}
+#penulis{
+    color: red;
+    margin-left:  300px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+#tanggal{
+    font-size: 12;
+    margin-left:  300px;
+    color: whitesmoke;
+    font-family: 'Noto Sans Mono', monospace;
+}
+#review{
+    padding-top: 100px;
+    
+}
+#review-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#review-box:focus{
+    width: 50%;
+    height: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(255, 255, 255);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#imdb{
+    margin-left:  900px;
+}
+#rating{
+    margin-left: 250px;
+}
+#rating1{
+    margin-left: 250px;
+}
+#rating1 i{
+    color: #fd4;
+}
+
+#review-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.review-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.review-heading h1{
+    font-size: 2,2rem;
+    font-weight: 500;
+    background-color: lightslategrey;
+    color: white;
+    padding: 10px 20px;
+}
+.review-heading span{
+    font-size: 1,3rem;
+    color: darkgray;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box1{
+    width: 800px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
+    background-color: rgb(56, 50, 50);
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.image-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.image-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.username strong{
+    font-size: 1,1rem;
+    letter-spacing: 0.5px;
+}
+.username span{
+    font-size: 0.8rem;
+}
+.review{
+    color: #fd4;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box1:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+.komentar{
+    font-family: 'Noto Sans Mono', monospace;
+}
+.comment-container{
+    width: 720px;
+    background-color: rgb(56, 50, 50);
+    padding: 20px 30px;
+    border: 1px solid rgb(56, 50, 50);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.comment-container .star-comment input{
+    display: none;
+}
+.star-comment label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{
+    color: #fd4;
+}
+form .textarea{
+    overflow: hidden;
+    
+}
+form .textarea textarea{
+    outline: none;
+    color: rgb(233, 224, 224);
+    border: 1px solid #333;
+    background: #222;
+    padding: 10px;
+    font-size: 12px;
+    resize: none;
+}
+
+form .btn{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0px;
+    
+}
+form .btn button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #333;
+    outline: none;
+    font-size: 17px;
+    background: #222;
+    color: rgb(233, 224, 224);
+    font-family: 'Noto Sans Mono', monospace;
+}
+.rekomendasi-container{
+    width: 200px;
+    height: 150px;
+    display: contents;
+}
+.img-rekomendasi{
+    width: 200px;
+    height: 150px;
+}
+.tulisan{
+    width: 200px;
+    height: 150px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.tulisan p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: lightgrey;
+}
+.plang-rekomendasi{
+    width: 100px;
+    height: 17px;
+    background-color: rgb(102, 96, 96);
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 30px black;
+    border-radius: 5px;
+}
+.tulisan-plang{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+.trailer-box{
+    margin-left: 35px;
+}
+.box-trailer{
+    margin-left: 45px;
+    width: 100px;
+    height: 17px;
+    background-color: rgb(102, 96, 96);
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 30px black;
+    border-radius: 5px;
+}
+.tulisan-trailer{
+    
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+iframe{
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}
